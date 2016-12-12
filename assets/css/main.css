@@ -1749,10 +1749,14 @@
 
 		.image.featured {
 			display: block;
+<<<<<<< HEAD
 			width: 650px;
             height: 360px;
             margin-left: auto;
             margin-right: auto;
+=======
+			width: 100%;
+>>>>>>> a764c90bf1d8f54c419760eca4d8a28a79b40acb
 			margin: 0 0 4em 0;
 		}
 
