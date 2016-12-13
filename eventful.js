@@ -11,12 +11,13 @@ function getLocation(){
 // console.log(response);
 //it would pull the information from the food html page//
 // var x = document.getElementById('logo');
-var x = $(document).load('#homePageInfo');
+var x = document.getElementByID('entertainment');
 console.log(x);
 // var x = response
 //it would then store the coordinates in those variables
 var eventLatitude;
 var eventLongitude;
+var queryURLBase = "https://api.eventful.com/rest/events/search?app_key=F5znJBwm4mjSDtQc&location=("+eventLatitude+","+eventLongitude+")&category=family_fun_kids"
 
 function getLocation(){
 
@@ -47,6 +48,27 @@ function showPosition(position){
     };
     //this is to test the values are defined//
 
+// using the location data then we will use the API to find the data that we are looking for //
+$.ajax({url: queryURLBase, method: 'GET'}).done(function(response){
+	console.log(queryURLBase);
+	var results = response.data;
+	console.log(response);
+
+	for (var i = 0; i <results.length; i++)
+	{
+		var img = $('<img>');//this will push the image result from api and store in there//
+		var thingDiv = $('<div>');//to create a div section//
+		var visual = results[i].image.medium.url;//the image search results would be seen//
+		var addressStreet = results[i].venue.address;
+		var addressCity = results[i].venue.city_name;
+		var addressState = results[i].venue.region_abbr;
+		var title = results[i].title;
+		var description = results[i].description;
+
+
+
+	}
+})
 
 
     
