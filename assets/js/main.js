@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -248,7 +248,7 @@
 	});
 
 })(jQuery);
-=======
+// =======
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -498,4 +498,4 @@
 	});
 
 })(jQuery);
->>>>>>> a764c90bf1d8f54c419760eca4d8a28a79b40acb
+// >>>>>>> a764c90bf1d8f54c419760eca4d8a28a79b40acb

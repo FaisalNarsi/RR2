@@ -3,36 +3,40 @@
 
 // the page would always be on standby for the user to open his information
 $(document).ready(function(){
-    getLocation();
+var x = document.getElementById('hello');
+console.log(x);
+// var x = response
+//it would then store the coordinates in those variables
+
+
 });
 
 //this function would help the app determine his or her location//
-function getLocation(){
+
 // console.log(response);
-//it would pull the information from the food html page//
 // var x = document.getElementById('logo');
-var x = document.getElementById('entertainment');
-console.log(x.val());
-// var x = response
-//it would then store the coordinates in those variables
 var eventLatitude;
 var eventLongitude;
 var queryURLBase = "https://api.eventful.com/rest/events/search?app_key=F5znJBwm4mjSDtQc&location=("+eventLatitude+","+eventLongitude+")&category=family_fun_kids"
+	getLocation();
 
 function getLocation(){
 
 	// console.log(navigator.geolocation.getCurrentPosition)
 	if (navigator.geolocation){
-		navigator.geolocation.getCurrentPosition(showPosition)
+		console.log('geo available')
+		var y = navigator.geolocation.getCurrentPosition(x);
+		console.log(y);
+		navigator.geolocation.getCurrentPosition(showPosition);
         
 
 	}
 	else{
 		//incase the browser does not allow the location is//
-		x.innerHTML = console.log("geolocation is not supported by this browser");
+		console.log("geolocation is not supported by this browser");
 	    }
     }
-}
+
 
 //it store the location object and show in the html//
 function showPosition(position){
