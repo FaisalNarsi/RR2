@@ -1,0 +1,26 @@
+#indexBody {
+	margin-top: -100px;
+}
+
+#rrTitle {
+
+	margin-top: -250px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: ;
+    font-size: 80px;
+    color: white;
+}
+
+#guideTitle {
+    font-size: 40px;
+    text-align: center;
+    color: #e88282;
+}
+
+#enterImg {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    float: left;
+}
