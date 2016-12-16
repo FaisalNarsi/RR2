@@ -26,11 +26,14 @@ function displayPosition(position){
 	queryURL= "http://localhost:3000/api/eventful/"+eventLat+"/"+eventLng;
 	$.ajax({url: queryURL, method: "GET"}).done(function(response){
 
-	var eventData = response.data;
-	console.log(response);
-})
+			var result = response.data;
+			console.log(response);
+			var eventPic = result.image.medium;
+			$('.12u').html(eventPic); 
+			})
+			
+	}
 
-}
 // queryURL = "https://api.eventful.com/rest/events/search?app_key=F5znJBwm4mjSDtQc&location=("+ eventLat+","+eventLng+")&category=family_fun_kids/"
 // app.use(function(req,res,next){
 // 	res.header("Access-Control-Allow-Origin",'*');
