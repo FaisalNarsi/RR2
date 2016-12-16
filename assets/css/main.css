@@ -900,6 +900,10 @@
 		.\-1u\28normal\29 {
 			margin-left: 8.33333%;
 		}
+        
+        .12u {
+           float: center 
+        }
 
 	}
 
@@ -1777,7 +1781,7 @@
             height: 25%;
             margin-left: auto;
             margin-right: auto;
-			margin: 0 0 4em 0;
+/*			margin: 0 0 4em 0;*/
            }
     
         
