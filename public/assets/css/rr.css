@@ -1,5 +1,22 @@
+#search {
+    padding: 250px;
+    margin: 0px;
+}
+
+#imgRes {
+    padding: 100px;
+}
+
+#detail {
+    padding: 100px;
+}
+
 #indexBody {
 	margin-top: -100px;
+}
+
+#header {
+    background-image: ;
 }
 
 #rrTitle {
