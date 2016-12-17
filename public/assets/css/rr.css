@@ -1,0 +1,51 @@
+#searchBar {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search {
+    padding: 250px;
+    margin: 0px;
+}
+
+#imgRes {
+    padding: 100px;
+}
+
+#detail {
+    padding: 100px;
+}
+
+#indexBody {
+    margin-top: -100px;
+}
+
+#header {
+    background-image: ;
+}
+
+#rrTitle {
+
+    margin-top: -250px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: ;
+    font-size: 80px;
+    color: white;
+}
+
+#guideTitle {
+    font-size: 40px;
+    text-align: center;
+    color: #e88282;
+}
+
+#enterImg {
+    width: 75%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 20px;
+}
