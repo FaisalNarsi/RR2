@@ -1,5 +1,5 @@
 $('letsgo').on('click', function(){
-  $('thml body').animate({
+  $('html body').animate({
       scrollTop:$('# +sectionID').offset()
       .top
   }1000);

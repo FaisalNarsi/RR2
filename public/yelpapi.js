@@ -15,7 +15,7 @@ var term = "sushi";
 var location ="Houston";
 
 // var url = "/yelp/search?term=" + "sushi" + "&location=" + location;
-var url = "http://localhost:3000/api/yelp/"+ location; 
+var url = "http://api/yelp/"+ location; 
 
 $.ajax({url: url, method: "GET"}).done(function(response){
 
