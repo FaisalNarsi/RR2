@@ -1,8 +1,8 @@
-# RR2
+# R'ant Resources
 The group project1
 
 Parents, have you ever been put into a situation where you can't decide what to do with your young kids. What kind of activities are you looking for? Where to take your kids to?
-# Welcome to Rant Resources
+## Welcome to Rant Resources
 Rant Resources finds resources for parents who are looking to find activities for their kids. If your looking for activities or events that you want to attend with your kids. Rants Resources would look it for you based on your location. Need to find food, then go to the food section and their using the Yelp Api you shall find the restaurants nearest to you.
 
 
